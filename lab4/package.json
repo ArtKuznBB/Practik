@@ -1,0 +1,10 @@
+{
+    "name": "mongoapp",
+    "version": "1.0.0",
+    "main": "app.js",
+    "dependencies": {
+        "express": "^4.19.2",
+        "mongodb": "^3.7.4",
+        "mongoose": "^8.4.4"
+    }
+}

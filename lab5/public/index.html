@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MongoDB Product App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>MongoDB Product App</h1>
+        <div>
+            <h2>Додати товар</h2>
+            <form id="addProductForm">
+                <input type="text" id="productName" placeholder="Назва товару" required>
+                <input type="number" id="quantity" placeholder="Кількість" required>
+                <button type="submit">Додати</button>
+            </form>
+        </div>
+        <div>
+            <h2>Товари</h2>
+            <button id="loadProducts">Завантажити товари</button>
+            <button id="deleteAllProducts">Видалити всі товари</button>
+            <table id="productTable">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Назва товару</th>
+                        <th>Кількість</th>
+                        <th>Дії</th>
+                    </tr>
+                </thead>
+                <tbody id="productList"></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

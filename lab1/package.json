@@ -1,0 +1,17 @@
+{
+  "name": "nodejslabs",
+  "version": "1.0.0",
+  "description": "Nodejs labs ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Kripchenko Bogdan",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
